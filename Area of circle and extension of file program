@@ -2,12 +2,12 @@
 
 R=eval(input("Input the radius of the circle: "))
 Pi=3.14285
-Area=Pi*r*r
-Print("The area of the circle with raadius",r,"is:")
+Area=Pi*R*R
+Print("The area of the circle with raadius",R,"is:")
 Print(Area)
 
 2)
 
-File=input("Input the file name: ")
-f=File.split(".")
+file=input("Input the file name: ")
+f=file.split(".")
 Print("The extension of the file is :" +f[-1])
